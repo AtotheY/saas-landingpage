@@ -6,7 +6,7 @@
 I ([Anthony Sistilli](https://linktr.ee/anthonysistilli)) created this boilerplate to save tech founders time when starting a new SaaS. It's meant to be a quick starting point that you can edit & deploy, allowing you to focus on the more important things like building your product and talking to users.
 
 
-You read more about the philosophy behind this boilerplate, and startups & coding in general on my [mind map](https://map.sistilli.dev/public/coding/SaaS+Boilerplate).
+You can read more about the philosophy behind this boilerplate, and startups & coding in general on my [mind map](https://map.sistilli.dev/public/coding/SaaS+Boilerplate).
 
 Also, here is the the accompanying [Figma design file](https://www.figma.com/community/file/1366853311251031961).
   
