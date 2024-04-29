@@ -5,10 +5,10 @@
 
 I ([Anthony Sistilli](https://linktr.ee/anthonysistilli)) created this boilerplate to save tech founders time when starting a new SaaS. It's meant to be a quick starting point that you can edit & deploy, allowing you to focus on the more important things like building your product and talking to users.
 
-  
 
 You read more about the philosophy behind this boilerplate, and startups & coding in general on my [mind map](https://map.sistilli.dev/public/coding/SaaS+Boilerplate).
 
+Also, here is the the accompanying [Figma design file](https://www.figma.com/community/file/1366853311251031961).
   
 
 ##  What the boilerplate looks like
@@ -21,7 +21,6 @@ You read more about the philosophy behind this boilerplate, and startups & codin
 
 [Mobile preview](https://i.imgur.com/X5OE8W7.png)
 
-  
 
 ##  Run the project
 
@@ -40,7 +39,7 @@ Make sure you have the [eslint](https://marketplace.visualstudio.com/items?itemN
 
   
 
-##  Tech specs & reasons
+##  Tech stack
 
   
 
@@ -48,7 +47,7 @@ I chose to build this on [Next 14](https://nextjs.org/blog/next-14) (NextJS + Re
 
   
 
-For the UI components, I use [shadcn](https://ui.shadcn.com/) - it's super lightweight, looks great out of the box, and has easy to edit components. It uses tailwindcss under the hood. It should be easy to rip out if you have a different UI library you'd like to use. One thing to note is I created a custom Typography components to match my Figma designs a bit better. You'll also want to replace the `src/app/global.css` with your custom theme styles from shadcn if you don't want to use mine. Note I added a new variant called `minor` here to match with my Figma.
+For the UI components, I use [shadcn](https://ui.shadcn.com/) - it's super lightweight, looks great out of the box, and has easy to edit components. It uses tailwindcss under the hood. It should be easy to rip out if you have a different UI library you'd like to use. One thing to note is I created a custom Typography components to match my [Figma](https://www.figma.com/community/file/1366853311251031961) designs a bit better. You'll also want to replace the `src/app/global.css` with your custom theme styles from shadcn if you don't want to use mine. Note I added a new variant called `minor` here to match with my [Figma](https://www.figma.com/community/file/1366853311251031961).
 
   
 
@@ -104,8 +103,16 @@ If you're building a full SaaS off of this repo, here's what you should look int
 - If you're SaaS has already launched, you can add more elements to the landing page like customer testimonials, demos, etc. A full list of things I'd recommend is [here](https://map.sistilli.dev/public/startups/concepts/SaaS+Landing+Page+Design+Standards)
 
 - Code the rest of your SaaS!
+- Create more designs on figma (see section below)
 
   
+
+## Design on Figma
+I have the accompanying [Figma file here](https://www.figma.com/community/file/1366853311251031961) so you can fork it and build out your SaaS from it while keeping the styles consistent.
+
+If you're a developer that's new to Figma, [here's my crashcourse on Figma for developers](https://www.youtube.com/watch?v=Vw_XmufXCCI). 
+
+If you ended up changing the shadcn theme, you can modify the color variables on Figma to match your code. Same for typography variants. 
 
 ##  Deploy on Vercel
 
