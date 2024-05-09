@@ -1,6 +1,5 @@
 
-##  Intro
-
+##  Intro for me
   
 
 I ([Anthony Sistilli](https://linktr.ee/anthonysistilli)) created this boilerplate to save tech founders time when starting a new SaaS. It's meant to be a quick starting point that you can edit & deploy, allowing you to focus on the more important things like building your product and talking to users.
