@@ -11,9 +11,9 @@ export function Footer() {
             href="/"
             className="pointer flex items-center"
           >
-            <img src="/logo.svg" className="mr-3" />
+            <img src="/logo.png" className="mr-3" />
             <Typography className="!text-white !text-base font-medium ">
-              Pandem
+              cloacina.io
             </Typography>
           </Link>
         </div>
