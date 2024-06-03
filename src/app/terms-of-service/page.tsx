@@ -5,7 +5,7 @@ export default function Page() {
         Terms of Service
       </h1>
       <p className="mb-2">
-        <strong>Last updated:</strong> February 06, 2024
+        <strong>Last updated:</strong> June 03, 2024
       </p>
       <p className="mb-4">
         Please read these terms and conditions carefully
@@ -32,15 +32,15 @@ export default function Page() {
           more of the shares, equity interest or other
           securities entitled to vote for election of
           directors or other managing authority. Country
-          refers to: Ontario, Canada Company (referred to as
+          refers to: United States Company (referred to as
           either the Company, We, Us or Our in this
-          Agreement) refers to PANDEM INC., 7014 Dunrobin
-          Way Mississauga L5N6Y4. Device means any device
-          that can access the Service such as a computer, a
-          cellphone or a digital tablet. Service refers to
-          the Website. Terms and Conditions (also referred
-          as Terms) mean these Terms and Conditions that
-          form the entire agreement between You and the
+          Agreement) refers to CLOACINA LLC., 2385 Precision
+          Drive Arroyo Grande, CA 93420. Device means any
+          device that can access the Service such as a
+          computer, a cellphone or a digital tablet. Service
+          refers to the Website. Terms and Conditions (also
+          referred as Terms) mean these Terms and Conditions
+          that form the entire agreement between You and the
           Company regarding the use of the Service. This
           Terms and Conditions agreement has been created
           with the help of the Terms and Conditions
@@ -49,7 +49,7 @@ export default function Page() {
           information, products or services) provided by a
           third-party that may be displayed, included or
           made available by the Service. Website refers to
-          Pandem, accessible from http://pandem.dev/ You
+          Pandem, accessible from http://cloacina.io/ You
           means the individual accessing or using the
           Service, or the company, or other legal entity on
           behalf of which such individual is accessing or
@@ -290,17 +290,17 @@ export default function Page() {
           Contact Us
         </h2>
         <p>
-          If you have any questions about this Privacy
-          Policy, You can contact us:
+          If you have any questions about the Terms of
+          Service, You can contact us:
         </p>
         <ul className="list-inside">
           <li>
             By email:{' '}
             <a
-              href="mailto:myemail@gmail.com"
+              href="mailto:tos@cloacina.io"
               className="text-blue-600 hover:underline"
             >
-              myemail@gmail.com
+              tos@cloacina.io
             </a>
           </li>
         </ul>
