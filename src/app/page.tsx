@@ -13,19 +13,17 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-          Information you need during on-call emergencies
+         Affordable game servers and web hosting servicesaaaaaa
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Quickly link new on-call tickets to similar past
-          incidents and their solutions. All directly in
-          Slack the moment an incident happens.
+          Looking for VPSs or just cheap game servers and web hosting?
+          We have you covered with all your needs!
         </Typography>
         <Link
-          href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
-          target="_blank"
+          href="/pricing"
         >
           <Button size="tiny" variant="ghost">
-            {`Get Started`}
+            {`Get Started And Open A Ticket`}
           </Button>
         </Link>
         <Image
@@ -60,12 +58,10 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-6 max-w-2xl items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Instant setup, no custom code
+            Instant setup
           </Typography>
           <Typography className="max-w-2xl" variant="p">
-            Quickly link new on-call tickets to similar past
-            incidents and their solutions. All directly in
-            Slack the moment an incident happens.
+            We setup your servers or VPSs fast.
           </Typography>
           <Image
             width={1024}
@@ -78,13 +74,13 @@ export default function Home() {
           <Typography className="max-w-2xl" variant="h1">
             Get in touch
           </Typography>
-          <div>Book a demo, or hop on a call</div>
+          <div>Join our discord!</div>
           <Link
-            href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
+            href="https://discord.gg/g7XpdwJhrv"
             target="_blank"
           >
             <Button size="tiny" variant="ghost">
-              {`Book now`}
+              {`Discord Invite`}
             </Button>
           </Link>
         </div>
