@@ -9,10 +9,8 @@ import { Analytics } from '@vercel/analytics/react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title:
-    'OrionHost',
-  description:
-    'Affordable game and web hosting services',
+  title: 'OrionHost',
+  description: 'Affordable game and web hosting services',
   openGraph: {
     images: '/opengraph-image.png'
   },
@@ -20,8 +18,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title:
       'OrionHost- Affordable game and web hosting services.',
-    description:
-      '',
+    description: '',
     images: ['https://i.imgur.com/MPMcyPP.png']
   }
 }

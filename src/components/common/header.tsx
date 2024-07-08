@@ -106,13 +106,13 @@ export function Header({ className }: SidebarProps) {
               {getHeaderItems()}
             </div>
             {
-            // getAuthButtons()
+              // getAuthButtons()
             }
           </div>
           {/* Mobile */}
           <div className="md:hidden flex gap-x-4 items-center">
             {
-            // getAuthButtons()
+              // getAuthButtons()
             }
             <Drawer direction="right">
               <DrawerTrigger asChild>

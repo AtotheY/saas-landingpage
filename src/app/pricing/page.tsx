@@ -1,9 +1,7 @@
 export default function Page() {
   return (
     <div className="mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-4">
-        Pricing
-      </h1>
+      <h1 className="text-3xl font-bold mb-4">Pricing</h1>
       <p className="mb-2">
         <strong>Last updated:</strong> February 06, 2024
       </p>

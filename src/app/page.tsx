@@ -13,15 +13,15 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-         Affordable game servers and web hosting servicesaaaaaa
+          Affordable game servers and web hosting
+          servicesaaaaaa
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Looking for VPSs or just cheap game servers and web hosting?
-          We have you covered with all your needs!
+          Looking for VPSs or just cheap game servers and
+          web hosting? We have you covered with all your
+          needs!
         </Typography>
-        <Link
-          href="/pricing"
-        >
+        <Link href="/pricing">
           <Button size="tiny" variant="ghost">
             {`Get Started And Open A Ticket`}
           </Button>
