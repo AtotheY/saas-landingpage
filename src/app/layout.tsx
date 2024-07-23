@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title:
-    'Pandem - Information you need during on-call emergencies',
+    'Vindael - Information you need during on-call emergencies',
   description:
     'Quickly link new on-call tickets to similar past incidents and their solutions. All directly in Slack the moment an incident happens.',
   openGraph: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title:
-      'Pandem - Information you need during on-call emergencies',
+      'Vindael - Information you need during on-call emergencies',
     description:
       'Quickly link new on-call tickets to similar past incidents and their solutions. All directly in Slack the moment an incident happens.',
     images: ['https://i.imgur.com/MPMcyPP.png']
