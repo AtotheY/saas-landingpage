@@ -6,6 +6,8 @@ You can read more about the philosophy behind this boilerplate, and startups & c
 
 Also, here is the the accompanying [Figma design file](https://www.figma.com/community/file/1366853311251031961).
 
+Feel free to [buy me a coffee :)](buymeacoffee.com/anthonysistilli)
+
 ## What the boilerplate looks like
 
 [Desktop preview](https://i.imgur.com/IO9p3DM.png)
