@@ -5,6 +5,7 @@ import { ThemeProvider } from '@/providers/theme-provider'
 import { Header } from '@/components/common/header'
 import { Footer } from '@/components/common/footer'
 import { Analytics } from '@vercel/analytics/react'
+import { ModalProvider } from '@/lib/modalContext'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -45,17 +46,19 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main
-            className={`flex min-h-screen flex-col ${inter.className}`}
-          >
-            <Header />
-            <div className="flex flex-1 justify-center w-full">
-              <div className="flex w-full max-w-[1280px] h-full">
-                {children}
+          <ModalProvider>
+            <main
+              className={`flex min-h-screen flex-col ${inter.className}`}
+            >
+              <Header />
+              <div className="flex flex-1 justify-center w-full">
+                <div className="flex w-full max-w-[1280px] h-full">
+                  {children}
+                </div>
               </div>
-            </div>
-            <Footer />
-          </main>
+              <Footer />
+            </main>
+          </ModalProvider>
         </ThemeProvider>
       </body>
     </html>
