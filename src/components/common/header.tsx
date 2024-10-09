@@ -12,6 +12,10 @@ import {
   DrawerTrigger
 } from '@/components/ui/drawer'
 import { MenuIcon, X } from 'lucide-react'
+import { useContext } from 'react'
+import { ModalContext } from '@/lib/modalContext'
+import Modal from '../ui/modal'
+import { AuthForm } from './authForm'
 
 interface SidebarProps
   extends React.HTMLAttributes<HTMLDivElement> {}
@@ -40,24 +44,40 @@ export function Header({ className }: SidebarProps) {
     </Link>
   )
 
+  const modalContext = useContext(ModalContext)
+
+  if (!modalContext) {
+    throw new Error('ModalContext is not available')
+  }
+
+  const { toggleModal, isActive, modalContent } = modalContext
+
+
   const getAuthButtons = () => (
     <div className="flex gap-3 items-center">
-      <Link
-        href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
-        target="_blank"
+      <Button 
+        onClick={() => { toggleModal(<AuthForm title="Login" />); }} 
+        variant="outline" 
+        size="tiny"
       >
-        <Typography variant="p">Login</Typography>
-      </Link>
-      <Link
-        href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
-        target="_blank"
+        <Typography 
+          variant="p"
+        >
+          Login
+        </Typography>
+      </Button>
+      <Button 
+        onClick={() => { toggleModal(<AuthForm title="Sign Up" />); }} 
+        color="ghost" 
+        size="tiny"
       >
-        <Button size="tiny" color="ghost">
-          <Typography variant="p" className="text-black">
-            Sign Up
-          </Typography>
-        </Button>
-      </Link>
+        <Typography 
+          variant="p" 
+          className="text-black"
+        >
+          Sign Up
+        </Typography>
+      </Button>
     </div>
   )
 
@@ -88,7 +108,8 @@ export function Header({ className }: SidebarProps) {
     )
   }
 
-  return (
+  return ( 
+    <>
     <div
       className={cn(
         `flex md:h-12 h-14 items-center justify-center w-full
@@ -134,5 +155,7 @@ export function Header({ className }: SidebarProps) {
         </div>
       </div>
     </div>
+    {isActive && <Modal>{modalContent}</Modal>}
+    </>
   )
 }
