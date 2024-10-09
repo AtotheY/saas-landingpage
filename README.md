@@ -1,6 +1,6 @@
 ## Intro
 
-I ([Anthony Sistilli](https://linktr.ee/anthonysistilli)) created this boilerplate to save tech founders time when starting a new SaaS. It's meant to be a quick starting point that you can edit & deploy, allowing you to focus on the more important things like building your product and talking to users.
+I ([Anthony Sistilli](https://links.sistilli.dev/)) created this boilerplate to save tech founders time when starting a new SaaS. It's meant to be a quick starting point that you can edit & deploy, allowing you to focus on the more important things like building your product and talking to users.
 
 You can read more about the philosophy behind this boilerplate, and startups & coding in general on my [mind map](https://map.sistilli.dev/public/coding/SaaS+Boilerplate).
 
@@ -99,7 +99,7 @@ I'd also recommend buying a domain on a platform like Cloudflare, and configurin
 
 ## Join our community & say thanks
 
-You can join our [Tech Founder's Discord](https://discord.gg/JNc6uPUqUU), and check out my other [socials](https://linktr.ee/anthonysistilli).
+You can join our [Tech Founder's Discord](https://discord.gg/JNc6uPUqUU), and check out my other [socials](https://links.sistilli.dev/).
 
 Also, if you're a tech founder like myself, feel free to subscribe on [Youtube](https://www.youtube.com/@anthonysistilli), and check out my [mind map](https://map.sistilli.dev/public/coding/SaaS+Boilerplate) where I write about startups, coding, and other things.
 
