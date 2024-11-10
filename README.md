@@ -24,7 +24,7 @@ npm run  dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 Make sure you have the [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extensions installed on vscode.
-
+/* When cloning the project,disable ESLINT before uploading files to server. Check NextJs documentation for more info on the same. */
 ## Tech stack
 
 I chose to build this on [Next 14](https://nextjs.org/blog/next-14) (NextJS + React) since that's what I normally use for my projects.
