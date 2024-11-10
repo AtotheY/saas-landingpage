@@ -16,9 +16,9 @@ export default function Home() {
           Information you need during on-call emergencies
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Quickly link new on-call tickets to similar past
-          incidents and their solutions. All directly in
-          Slack the moment an incident happens.
+          Turn complex ideas into clear, professional documentation in minutes. 
+          Antwriter AI streamlines your team's content creation workflow with powerful
+          markdown editing and seamless collaboration.
         </Typography>
         <Link
           href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
@@ -38,7 +38,7 @@ export default function Home() {
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
         <div className="flex flex-col gap-12 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Quick solutions, less stress
+           Work smarter,not harder
           </Typography>
           <div className="flex md:flex-row flex-col gap-12">
             <Feature
@@ -66,6 +66,9 @@ export default function Home() {
             Quickly link new on-call tickets to similar past
             incidents and their solutions. All directly in
             Slack the moment an incident happens.
+          </Typography>
+      <Typography className="max-w-2xl" variant="p">
+           Used by Technical Teams at Leading Companies.
           </Typography>
           <Image
             width={1024}
