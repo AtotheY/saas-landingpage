@@ -13,7 +13,7 @@ export function Footer() {
           >
             <img src="/logo.svg" className="mr-3" />
             <Typography className="!text-white !text-base font-medium ">
-              Pandem
+              Ant-Team
             </Typography>
           </Link>
         </div>
@@ -21,10 +21,10 @@ export function Footer() {
           <Link
             href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
             target="_blank"
-            className="pointer block w-fit flex-1"
+            className="pointer block w-fit flex-2"
           >
             <Typography variant="p" className="w-max">
-              Book a demo
+              Book a demo with us.
             </Typography>
           </Link>
           <Link
