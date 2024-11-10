@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title:
-      'Ant-Team - Information you need during on-call emergencies',
+      'Ant-Team : Information you need during on-call emergencies',
     description:
       'Quickly link new on-call tickets to similar past incidents and their solutions. All directly in Slack the moment an incident happens.',
     images: ['https://i.imgur.com/MPMcyPP.png']
